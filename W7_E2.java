@@ -14,7 +14,7 @@ public class W7_E2
         //Try-catch statement that will make sure file is there; if not then prints out an error message
         try
         {    
-        Scanner myScanner = new Scanner(new File(fileName)); //Scanner class called to read file name/path and get all data from it
+            Scanner myScanner = new Scanner(new File(fileName)); //Scanner class called to read file name/path and get all data from it
             while (myScanner.hasNextLine()) //While-loop keeps going as long as there is data on next line
             {
                 String data = myScanner.nextLine(); //String data variable gets all data from line
